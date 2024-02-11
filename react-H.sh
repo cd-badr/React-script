@@ -13,7 +13,7 @@ echo -n "
 Folder name : "
 
 read folder
-cd /home/w/Desktop/
+cd (your path)
 npx create-react-app $folder
 cd $folder
 rm -rf .git public/* src/*
@@ -106,4 +106,4 @@ echo "
 @tailwind components;
 @tailwind utilities;" > ./src/index.css
 
-code /home/w/Desktop/$folder
+code (your path)$folder
